@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Playfair+Display:ital,wght@1,600&family=Poppins:wght@200;300;400;500;600&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/*.......
+ menu bar
+ ....... */
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+h4 {
+    margin: 0;
+    font-size: 24px;
+    margin-left: 120px;
+}
+
+nav a {
+
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    margin-right: 20px;
+}
+
+#menu-link {
+    margin-right: 120px;
+}
