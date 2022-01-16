@@ -45,6 +45,8 @@ nav a {
 
 }
 
+
+
 .half-width-container {
     width: 50%;
     margin-left: 120px;
@@ -263,4 +265,44 @@ h5 {
     font-size: 20px;
     margin-right: 10px;
     color: white;
+}
+
+@media screen and (max-width: 600px) {
+
+    span h4 {
+
+        font-size: 25px;
+        padding-left: 40px;
+    }
+
+    .first-portion {
+        flex-direction: column;
+        padding: 10px 30px;
+
+    }
+
+    .first-portion .half-width-container>h1 {
+
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .first-portion .half-width-container img {
+
+        width: 257px;
+    }
+
+    .first-portion .half-width-container button {
+        padding: 20px 40px;
+        font-size: 15px;
+    }
+
+    .brand-logos {
+        flex-direction: column;
+        width: 150px;
+    }
+
+    .grid-collection {
+        flex-direction: column;
+    }
 }
